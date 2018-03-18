@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
 
   attr_reader :name, :roster, :grade
@@ -18,10 +20,12 @@ end
 
    def grade(grade)
      roster[grade]
+     binding.pry
    end
 
    def sort
      roster[grade].sort
+     
    end 
 
 end
