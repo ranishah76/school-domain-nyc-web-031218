@@ -23,7 +23,6 @@ end
    end
 
    def sort
-     roster[grade].sort_by { |student_names| student_name}
-   end
+     roster[grade].sort
 
 end
