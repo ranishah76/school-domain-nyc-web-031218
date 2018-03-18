@@ -24,8 +24,11 @@ end
 
    def sort
      sorted = {}
+     binding.pry
      roster.each do |grade, students|
+       binding.pry
        sorted[grade] = students.sort
+       binding.pry
    end
    sorted
  end
